@@ -20,7 +20,7 @@
 
 .item {
     background-color: green;
-    width: 45%;
+    width: 35%;
 
 }
 
@@ -34,4 +34,10 @@ form {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+}
+
+button {
+    background: yellow;
+    border: 1px solid yellow;
+    font-size: 14px;
 }
