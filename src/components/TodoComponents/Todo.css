@@ -1,0 +1,37 @@
+.App {
+    text-align: center;
+    background: lightblue;
+    max-width: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.item {
+    background-color: green;
+    width: 45%;
+
+}
+
+.item.completed {
+    text-decoration: line-through;
+    background: lightgreen;
+
+}
+
+form {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
